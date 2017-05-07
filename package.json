@@ -1,0 +1,32 @@
+{
+	"name":             "typedoc-plugin-docs",
+	"version":          "0.1.0",
+	"description":      "Include regular markdown files as documents in your documentation.",
+	"main":             "index.js",
+
+	"scripts":          {
+	},
+
+	"keywords":         [
+		"typedocplugin",
+		"typedoc"
+	],
+
+	"repository":       {
+		"type": "git",
+		"url":  "https://github.com/cpriest/typedoc-plugin-docs.git"
+	},
+
+	"author":           "Clint Priest",
+	"license":          "MIT",
+
+	"peerDependencies": {
+		"typedoc": "^0.5.3"
+	},
+
+	"devDependencies":  {
+		"@types/handlebars": "^4.0.31",
+		"typedoc":           "^0.5.3",
+		"typescript":        "^2.1.1"
+	}
+}
